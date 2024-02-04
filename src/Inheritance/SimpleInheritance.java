@@ -11,7 +11,6 @@ public class SimpleInheritance {
         objC.setData();
         objC.printData();
         System.out.println("a = "+ obj.a + " ,"+ "c  ="+ " "+objC.c );
-        System.out.println("a = "+ obj.a + " ,"+ "c  ="+ " "+objC.c );
 	}
     
 }
