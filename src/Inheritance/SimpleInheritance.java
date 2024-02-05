@@ -8,6 +8,7 @@ public class SimpleInheritance {
 		obj.showDeta();
 		System.out.println("a = "+obj.a+ " , "+ " b = "+ obj.b);
 		System.out.println("added new line");
+		System.out.println("a+b");
 		call();
         C objC = new C();
         objC.setData();
