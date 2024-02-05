@@ -23,7 +23,8 @@ public class SimpleInheritance {
 	}
 
 	private static void call() {
-		System.out.println("added extra line");	
+		System.out.println("added extra line");
+		System.out.println("new message");
 	}
     
 }
