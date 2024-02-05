@@ -13,6 +13,7 @@ public class HashSetDemo2 {
 		hs.add(5);
 		hs.add(5);
 		System.out.println(hs+" = set 1");
+		System.out.println(hs+" = set 1");
 		HashSet hs1 = new HashSet<>();
 		hs1.add(3);
 		hs1.add(7);
