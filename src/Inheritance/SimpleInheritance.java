@@ -8,11 +8,16 @@ public class SimpleInheritance {
 		obj.showDeta();
 		System.out.println("a = "+obj.a+ " , "+ " b = "+ obj.b);
 		System.out.println("added new line");
+		call();
         C objC = new C();
         objC.setData();
         objC.printData();
         System.out.println("a = "+ obj.a + " ,"+ "c  ="+ " "+objC.c );
         System.out.println("a = "+ obj.a);
+	}
+
+	private static void call() {
+		System.out.println("added extra line");	
 	}
     
 }
