@@ -13,6 +13,12 @@ public class SimpleInheritance {
         objC.printData();
         System.out.println("a = "+ obj.a + " ,"+ "c  ="+ " "+objC.c );
         System.out.println("a = "+ obj.a);
+        calltwo();
+	}
+
+	private static void calltwo() {
+		System.out.println("added extra two line");
+		
 	}
     
 }
